@@ -75,7 +75,14 @@ pip install -r requirements.txt
 
 ## Dataset
 
-This framework uses the Taillard benchmark instances for JSSP. The dataset should be in the following format:
+This repository includes the Taillard benchmark instances (`taillard_dataset.txt`) for convenience. These instances are:
+
+- **Public URL**: http://mistic.heig-vd.ch/taillard/problemes.dir/ordonnancement.dir/ordonnancement.html
+- **Citation**: Taillard, É. (1993). Benchmarks for basic scheduling problems. 
+  *European Journal of Operational Research*, 64(2), 278-285. 
+  DOI: [10.1016/0377-2217(93)90182-M](https://doi.org/10.1016/0377-2217(93)90182-M)
+
+The dataset should be in the following format:
 
 ```
 instance_name
